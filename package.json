@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aos": "^2.3.4",
     "react": "^18.2.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^18.2.0",
     "react-particles": "^2.9.3",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
     "tslib": "^2.5.0",
     "tsparticles": "^2.9.3",
     "tsparticles-engine": "^2.9.3"
