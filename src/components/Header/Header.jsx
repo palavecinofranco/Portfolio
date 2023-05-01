@@ -15,7 +15,7 @@ export function Header() {
           <span>P</span>
           <span>Fran</span>
         </a>
-        <nav className={activo ? 'activo' : ''}>
+        <nav className={activo ? 'active' : ''}>
           <a className="nav-a" href="#home" onClick={closeMenu}>
             Home
           </a>
@@ -37,7 +37,7 @@ export function Header() {
           aria-expanded={activo ? 'true' : 'false'}
           aria-haspopup="true"
           aria-label={activo ? 'Fechar menu' : 'Abrir menu'}
-          className={activo ? 'menu activo' : 'menu'}
+          className={activo ? 'menu active' : 'menu'}
           onClick={() => {
             setActivo(!activo)
           }}
