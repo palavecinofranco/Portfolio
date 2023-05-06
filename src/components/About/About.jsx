@@ -1,6 +1,4 @@
 import "./about.css"
-import cssIcon from "../../assets/css-icon.svg";
-import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import mysqlIcon from "../../assets/mysql-icon.svg";
@@ -8,6 +6,7 @@ import javaIcon from "../../assets/java-icon.svg";
 import springIcon from "../../assets/spring-icon.svg";
 import gitIcon from "../../assets/git-icon.svg";
 import firebaseIcon from "../../assets/firebase-icon.svg";
+import hibernateIcon from "../../assets/hibernate_icon.png"
 
 export function About(){
 
@@ -31,45 +30,8 @@ export function About(){
           <h3>Estas son mis principales habilidades:</h3>
         </div>
         <div className="hard-skills">
-
-          <div className="hability">
-          <div data-aos="fade-up" data-aos-delay="900"> 
-            <img src={jsIcon} alt="JavaScript" />
-          </div>
-          </div>
-
-          <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="1000">
-              <img src={reactIcon} alt="React" />
-            </div>
-          </div>
           
-
-          <div className="hability">
-          <div data-aos="fade-up" data-aos-delay="1100"> 
-            <img src={htmlIcon} alt="Html" />
-          </div>
-          </div>
-
-          <div className="hability">
-          <div data-aos="fade-up" data-aos-delay="1200"> 
-            <img src={cssIcon} alt="Css" />
-          </div>
-          </div>
-
-          <div className="hability">
-            <div data-aos="fade-up" data-aos-delay="1300">
-              <img src={firebaseIcon} alt="Firebase" />
-            </div>
-          </div>
-
-          <div className="hability">
-          <div data-aos="fade-up" data-aos-delay="1400">
-            <img src={gitIcon} alt="Git" />
-          </div>
-          </div>
-
-          <div className="hability">
+        <div className="hability">
           <div data-aos="fade-up" data-aos-delay="1500"> 
             <img src={javaIcon} alt="Java" />
           </div>
@@ -82,8 +44,38 @@ export function About(){
           </div>
 
           <div className="hability">
+          <div data-aos="fade-up" data-aos-delay="1600"> 
+            <img src={hibernateIcon} alt="Hibernate" />
+          </div>
+          </div>
+
+          <div className="hability">
           <div data-aos="fade-up"data-aos-delay="1700">
             <img src={mysqlIcon} alt="MySQL" />
+          </div>
+          </div>
+
+          <div className="hability">
+          <div data-aos="fade-up" data-aos-delay="900"> 
+            <img src={jsIcon} alt="JavaScript" />
+          </div>
+          </div>
+
+          <div className="hability">
+            <div data-aos="fade-up" data-aos-delay="1000">
+              <img src={reactIcon} alt="React" />
+            </div>
+          </div>
+
+          <div className="hability">
+            <div data-aos="fade-up" data-aos-delay="1300">
+              <img src={firebaseIcon} alt="Firebase" />
+            </div>
+          </div>
+
+          <div className="hability">
+          <div data-aos="fade-up" data-aos-delay="1400">
+            <img src={gitIcon} alt="Git" />
           </div>
           </div>
         </div>
