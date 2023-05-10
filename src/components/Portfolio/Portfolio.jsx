@@ -15,13 +15,39 @@ export function Portfolio(){
           <header className="proyect-header">
           <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
           <div className="project-links">
+            <a className="proyect-links-a" href="https://github.com/palavecinofranco/Market" target="_blank" rel="noreferrer">
+              <img src={githubIcon} alt="GitHub" />
+            </a>
+          </div>
+          </header>
+          <div className="body">
+            <h3 className="proyecth3">Supermercado API REST</h3>
+            <p className="proyectp">API REST donde se gestiona un supermercado. Creado con Spring Boot, Spring Data JPA y MYSQL. Proyecto documentado con Swagger y desplegado en Google Cloud GCP</p>
+          </div>
+          <footer className="proyect-footer">
+            <ul className="tech-list">
+              <li>Java</li>
+              <li>Spring</li>
+              <li>Hibernate</li>
+              <li>GCP</li>
+              <li>MySql</li>
+            </ul>
+          </footer>
+        </div>
+      </div>
+
+      <div data-aos="flip-up">
+        <div className="project">
+          <header className="proyect-header">
+          <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+          <div className="project-links">
             <a className="proyect-links-a" href="https://github.com/palavecinofranco/SpringBoot-UserManagement" target="_blank" rel="noreferrer">
               <img src={githubIcon} alt="GitHub" />
             </a>
           </div>
           </header>
           <div className="body">
-            <h3 className="proyecth3">Gestión de Usuarios</h3>
+            <h3 className="proyecth3">Gestión de Usuarios API REST</h3>
             <p className="proyectp">Aplicación Web realizada con Spring Boot, Hibernate, JWT. API REST donde se gestiona usuarios que están dentro de una Base de Datos MySQL.</p>
           </div>
           <footer className="proyect-footer">

@@ -1,5 +1,5 @@
 import "./about.css"
-import jsIcon from "../../assets/js-icon.svg";
+import springBootIcon from "../../assets/springboot-icon.png";
 import reactIcon from "../../assets/react-icon.svg";
 import mysqlIcon from "../../assets/mysql-icon.svg";
 import javaIcon from "../../assets/java-icon.svg";
@@ -45,6 +45,12 @@ export function About(){
 
           <div className="hability">
           <div data-aos="fade-up" data-aos-delay="1600"> 
+            <img src={springBootIcon} alt="Spring" />
+          </div>
+          </div>
+
+          <div className="hability">
+          <div data-aos="fade-up" data-aos-delay="1600"> 
             <img src={hibernateIcon} alt="Hibernate" />
           </div>
           </div>
@@ -52,12 +58,6 @@ export function About(){
           <div className="hability">
           <div data-aos="fade-up"data-aos-delay="1700">
             <img src={mysqlIcon} alt="MySQL" />
-          </div>
-          </div>
-
-          <div className="hability">
-          <div data-aos="fade-up" data-aos-delay="900"> 
-            <img src={jsIcon} alt="JavaScript" />
           </div>
           </div>
 
