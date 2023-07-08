@@ -6,7 +6,6 @@ import springIcon from "../../assets/spring-icon.svg";
 import springBootIcon from "../../assets/springboot.png";
 import gitIcon from "../../assets/git-icon.svg";
 import firebaseIcon from "../../assets/firebase-icon.svg";
-import hibernateIcon from "../../assets/hibernate_icon.png"
 import Illustration from "../../assets/hero-ilustration.svg"
 
 export function About(){
