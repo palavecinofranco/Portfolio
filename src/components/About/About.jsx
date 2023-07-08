@@ -1,11 +1,13 @@
 import "./about.css"
 import reactIcon from "../../assets/react-icon.svg";
-import mysqlIcon from "../../assets/mysql-icon.svg";
+import mysqlIcon from "../../assets/mysql-icon.png";
 import javaIcon from "../../assets/java-icon.svg";
 import springIcon from "../../assets/spring-icon.svg";
+import springBootIcon from "../../assets/springboot.png";
 import gitIcon from "../../assets/git-icon.svg";
 import firebaseIcon from "../../assets/firebase-icon.svg";
 import hibernateIcon from "../../assets/hibernate_icon.png"
+import Illustration from "../../assets/hero-ilustration.svg"
 
 export function About(){
 
@@ -16,13 +18,13 @@ export function About(){
           <h2>Sobre mi</h2>
         </div>
         <div data-aos="fade-left" data-aos-delay="400">
-          <p>Mi nombre es Franco Palavecino, soy estudiante universitario en Desarrollo Web y ademas Full Stack Developer. Me apasiona la programación y solucionar día a día los problemas a los que me enfrento en este lindo rubro.</p>
+          <p>Soy Desarrollador Full Stack con orientación al Backend con Java & Spring Framework. Además asisto a la universidad en la carrera de Técnicatura en Desarrollo Web</p>
         </div>
         <div data-aos="fade-left" data-aos-delay="500">
-          <p>Desarrollo sitios y aplicaciones web utilizando React en el Front-end y Java con Spring Boot en la parte del Back-End. Trato de aprender algo nuevo con cada proyecto en el que me desafío.</p>
+          <p>Desarrollo sitios y aplicaciones web full stack utilizando Java con Spring Boot en la parte del Back-End y React en el Front-end.</p>
         </div>
         <div data-aos="fade-left" data-aos-delay="600">
-          <p>Soy una persona dedicada y autosuficiente, bastante resiliente, que busca profesionalizarse cada día más. Para lograr esto, estoy en constante busqueda de nuevos conocimientos, por lo cual realizo proyectos por cuenta propia y a su vez leo documentación.</p>
+          <p>Me apasiona la programación y solucionar día a día los problemas a los que me enfrento en este rubro. Soy una persona dedicada, resiliente, que busca profesionalizarse cada día más a través de proyectos desafiantes.</p>
         </div>
 
         <div data-aos="fade-left" data-aos-delay="800">
@@ -44,11 +46,11 @@ export function About(){
 
           <div className="hability">
           <div data-aos="fade-up" data-aos-delay="1600"> 
-            <img src={hibernateIcon} alt="Hibernate" />
+            <img src={springBootIcon} alt="SpringBoot" />
           </div>
           </div>
 
-          <div className="hability">
+          <div className="hability icon-small">
           <div data-aos="fade-up"data-aos-delay="1700">
             <img src={mysqlIcon} alt="MySQL" />
           </div>
@@ -75,7 +77,7 @@ export function About(){
       </div>
       <div className="about-image">
         <div data-aos="fade-left" data-aos-delay="600">
-          <img src="https://files.fm/thumb_show.php?i=asphq3qt3" alt="Imagen de perfil" />
+          <img src={Illustration} alt="Imagen de perfil" />
         </div>
       </div>
     </div>

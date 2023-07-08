@@ -1,6 +1,6 @@
 import "./header.css"
 import { useState } from 'react'
-import Cv from '../../assets/CV-Franco-Palavecino(Full-Stack-Developer).pdf'
+import Cv from '../../assets/CV-Palavecino-Franco(FullStack-Developer).pdf'
 
 export function Header() {
   const [activo, setActivo] = useState(false)

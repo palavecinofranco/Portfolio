@@ -5,7 +5,13 @@
   .h2Portfolio{
     text-align: center;
     font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+  .h3Portfolio{
+    text-align: center;
+    font-size: 1.8rem;
     margin-bottom: 10rem;
+    color: var(--green);
   }
 
   .projects{

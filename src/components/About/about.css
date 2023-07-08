@@ -24,6 +24,10 @@
     width: 3.4rem;
   }
 
+  .icon-small img{
+    width: 4rem !important;
+  }
+
   #sobre h2{
     display: inline-block;
     margin-bottom: 2rem;
@@ -45,13 +49,8 @@
     text-align: center;
   }
   .about-image img{
-     margin-top: 2rem;
+     margin-top: 10rem;
      width: 75%;
-     filter: grayscale(1);
-     transition: filter 0.5s;
-  }
-  .about-image img:hover{
-    filter: grayscale(0);
   }
 
 

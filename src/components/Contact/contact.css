@@ -8,11 +8,47 @@
   #contact header h2{
     text-align: center;
     font-size: 4rem;
+    margin-bottom: 20px;
   }
 
   #contact header p{
     color: var(--green);
     font-weight: 500;
+  }
+
+  form{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      margin-top: 10px;
+  }
+
+  input, textarea{
+    width: 60rem;
+    padding: 1rem 2rem;
+    border-radius: 1.6rem;
+    outline: none;
+    border: none;
+    background: rgba(69, 69, 69, 0.382);
+    color: white !important;
+    font-weight: 600;
+    &::placeholder{
+      color: #595959 !important;
+    }
+  }
+
+  #message{
+    height: 20rem;
+    overflow-y: auto;
+    resize: none;
+  }
+
+  button{
+    padding: 1rem 6rem;
+    text-transform: uppercase;
   }
 
   .contacts{
@@ -54,12 +90,8 @@
     }
 
 
-  @media(max-width: 960px){
-    .contacts{
-      flex-direction: column;
+  @media(max-width: 700px){
+    input, textarea{
+      width: 100%;
     }
-    .contacts div{
-        width: 100%;
-        flex-direction: column;
-      }
   }

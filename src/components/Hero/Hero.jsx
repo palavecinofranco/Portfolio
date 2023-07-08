@@ -23,7 +23,7 @@ export function Hero(){
           <h3>Desarrollador Full Stack</h3>
         </div>
         <div data-aos="fade-up">
-          <p className="small-resume">Desarrollador web con enfoque en Java (Spring Boot) & React</p>
+          <p className="small-resume">Desarrollador web con enfoque en Java & React</p>
         </div>
           <div data-aos="fade-up">
               <a href="#contact" className="button">Contacto</a>
