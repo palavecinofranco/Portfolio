@@ -22,16 +22,17 @@ export function Portfolio(){
           </div>
           </header>
           <div className="body">
-            <h3 className="proyecth3">Microservicio Spring Boot</h3>
+            <h3 className="proyecth3">Microservices Spring Boot - Ecommerce</h3>
             <p className="proyectp">Aplicación escalable con Arquitectura de Microservicios. Se utilizó Spring Boot, Spring Cloud, Spring Security, Spring Data JPA, Docker & Eureka Netflix</p>
           </div>
           <footer className="proyect-footer">
             <ul className="tech-list">
               <li>Java</li>
               <li>Spring</li>
-              <li>MySQL</li>
               <li>Docker</li>
               <li>Eureka</li>
+              <li>Keycloak</li>
+              <li>Resilience4j</li>
             </ul>
           </footer>
         </div>

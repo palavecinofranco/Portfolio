@@ -20,10 +20,10 @@ export function Hero(){
           <h1>Franco Palavecino</h1>
         </div>
         <div data-aos="fade-up">
-          <h3>Desarrollador Full Stack</h3>
+          <h3>Desarrollador Web</h3>
         </div>
         <div data-aos="fade-up">
-          <p className="small-resume">Desarrollador web con enfoque en Java & React</p>
+          <p className="small-resume">Desarrollador Full Stack con enfoque en Java & React</p>
         </div>
           <div data-aos="fade-up">
               <a href="#contact" className="button">Contacto</a>

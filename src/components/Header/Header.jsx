@@ -17,16 +17,16 @@ export function Header() {
         </a>
         <nav className={activo ? 'active' : ''}>
           <a className="nav-a" href="#home" onClick={closeMenu}>
-            Home
+            Inicio
           </a>
           <a className="nav-a" href="#sobre" onClick={closeMenu}>
-            About me
+            Sobre mi
           </a>
           <a className="nav-a" href="#portfolio" onClick={closeMenu}>
-            Portfolio
+            Portafolio
           </a>
           <a className="nav-a" href="#contact" onClick={closeMenu}>
-            Contact
+            Contacto
           </a>
           <a className="nav-a buthrefn" href={Cv} download>
             CV
