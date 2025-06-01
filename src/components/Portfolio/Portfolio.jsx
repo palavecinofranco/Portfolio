@@ -1,10 +1,8 @@
-import githubIcon from "../../assets/github-icon.svg"
 import app from "../../assets/app1.png"
 import app2 from "../../assets/app2.png"
 import app3 from "../../assets/app3.png"
 import app4 from "../../assets/app4.png"
 import app5 from "../../assets/app5.png"
-import externalLinkIcon from "../../assets/external-link-icon.svg"
 import "./portfolio.css";
 
 

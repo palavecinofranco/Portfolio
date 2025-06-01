@@ -8,16 +8,6 @@ import { loadFull } from "tsparticles";
 import phoneIcon from "../../assets/iphone.png";
 import androidIcon from "../../assets/android.png"
 import iosIcon from "../../assets/apple.png"
-import cssIcon from "../../assets/css-icon.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import jsIcon from "../../assets/js-icon.svg";
-import mysqlIcon from "../../assets/mysql-icon.svg";
-import javaIcon from "../../assets/java-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
-import sassIcon from "../../assets/sass-icon.svg";
-import springIcon from "../../assets/spring-icon.svg";
-import vscodeIcon from "../../assets/vscode-icon.svg";
-import firebaseIcon from "../../assets/firebase-icon.svg";
 import { useCallback } from "react";
 
 export function Main(){

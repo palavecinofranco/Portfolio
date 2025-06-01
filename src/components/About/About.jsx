@@ -1,11 +1,4 @@
 import "./about.css"
-import reactIcon from "../../assets/react-icon.svg";
-import mysqlIcon from "../../assets/mysql-icon.png";
-import javaIcon from "../../assets/java-icon.svg";
-import springIcon from "../../assets/spring-icon.svg";
-import springBootIcon from "../../assets/springboot.png";
-import gitIcon from "../../assets/git-icon.svg";
-import firebaseIcon from "../../assets/firebase-icon.svg";
 import Illustration from "../../assets/hero-ilustration.svg"
 
 export function About(){
